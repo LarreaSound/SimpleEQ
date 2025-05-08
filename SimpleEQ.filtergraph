@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FILTERGRAPH>
-  <FILTER uid="1" x="0.07875" y="0.3286290322580645" useARA="0">
+  <FILTER uid="1" x="0.07971014492753623" y="0.4185393258426967" useARA="0">
     <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
@@ -46,7 +46,7 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="4" x="0.08125" y="0.2076612903225807" useARA="0">
+  <FILTER uid="4" x="0.08115942028985507" y="0.252808988764045" useARA="0">
     <PLUGIN name="MIDI Output" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="9d5bbb00"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
@@ -65,7 +65,7 @@
           uiLastY_Normal="126" uiopen_Normal="1">
     <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="C:\Users\Julio Larrea\Documents\Programming\SimpleEQ\Builds\VisualStudio2022\x64\Debug\VST3\SimpleEQ.vst3\Contents\x86_64-win\SimpleEQ.vst3"
-            uniqueId="56bd61a" isInstrument="0" fileTime="196b1385f81" infoUpdateTime="196b13c31a0"
+            uniqueId="56bd61a" isInstrument="0" fileTime="196b17d6b8f" infoUpdateTime="196b1843370"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="e95b54a5"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -82,10 +82,10 @@
           uiLastY_Normal="94" uiopen_Normal="1">
     <PLUGIN name="sforzando" format="VST3" category="Instrument" manufacturer="Plogue Art et Technologie, Inc"
             version="2.1.2.2" file="C:\Program Files\Common Files\VST3\sforzando.vst3\Contents\x86_64-win\sforzando.vst3"
-            uniqueId="1026018b" isInstrument="1" fileTime="18e76747f10" infoUpdateTime="196b13c31a0"
+            uniqueId="1026018b" isInstrument="1" fileTime="18e76747f10" infoUpdateTime="196b1843370"
             numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="7eb84950"/>
-    <STATE>1291.VMjLgHPA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9fCNz3hKt3hKtXWLt3hK1AUQiQDUqEmKt3hYG01XZUUX0MWRLA0L08za3TlK2IyRXkVYkAWVUM1X04lau4lUuEya3bWRGAWXJokQtMDSQM2J1HyYukzcuokKQkVcpMSZscjM1PFc4cjLzb0Mh8VSZE2auMmazoUTL4TPEczX2cTYqXiSqfGaBgyb0LGalIyaDg2Lt0lVvUWcKIyb2jmYAQDaFMDVoYVa4UGLyHVQUElVokyTsEiUyPVPjMlXTEWb241RAk2RnkTV2E0Z0zVcvDFMRE2bNUFLsYEQ4YmYzT0RqbCdwYiXwAWcxLSVuYiXvrlVGIlaxnUbisDZQcFaxw1bFYCZyflRXUmMJ0TUzMCRgcmU44RVtjUXNI2QnkSYvXUSXEzQiYkZuISaRoUdyUmV4njYr8VVQwzQ1U2cVUmUgUWbwgmMqY1Y5gSTDI1LQUjL1zjUuszYyshS3nUbzzVMr0lKsQ1bzUiLKc1URYGRRIlYHcFTtbyMGASUUgCczjETybCUygyZmMiLiMCUjoEN0okdUEFS0IzcAsjV3TmaLMScvPiSHMjbOI2Ll8lSsUFNwkiax7zUusDbwPSagASLzETTLgSYBETcGIjVLgTV4MzYL8DQ0bCTXk2Pm8zSDc2MPoVdCEUSOQDS0PjchITMKkCQDg0MI4lcyLETncWZwcmLtEldqU2brgTPQQEQAITRpwTQmAGdXU2bPUiKKEETXoFRD4xSzIEdUkkZLIVYgg1cXUDQXkTVXU0JoolaPIVPq8lQsUjMHYERqjlZP8lXVsxZ0cGV2MzPLYDLkgkRAITMocWa3UzPJckTtoTV0YlYQIzLtQDS24lbpcFbHE0LYcFVJUzUl4VZKgFdPEkZQEDMSc1ZHQlUkwjSzcjRCUTTNczT2IjPv0VS50zXhEEURMTQQg1UCcmRpYFTqcycEEEMQI0StQiXJMEZDIjRAkDals1Lq71LPozQyEjUtfTUXYUUQ8lTIYkRzjEUnwzPq0jRMUjRL4jQvYFTYoTRBcyaIgUQrUUUXITTBETcpIzZOIVLynlPSAWcVIGZzPTQNMESmo1atcTUygVUhkDUhMTMLUTNLYyL3cmcWUFa3njSJIlL2AEbtUlLYYlZ2gzTpAkctYmbOc1Luc1cDgDMCUSLDoGQGAiTu0lQhYSZrsVPvvDQ4PzMFUWSh4Bb1YzcIAUPu8jU2bUXXA2cSsFV2DkLP8VN5IzYtb1SkIENMIWUhIjUMQkRKUjYiwFVJo0YB4zP1DVNHkkXEQEc3IDUzk2T1zFdXICZ0cicCwlXWMiXGYCarkEV4j1RKc0UXAGdMcDa4X2SBY0LHoEUqUFQycCN4MzbqnVNw7jUzE1UvPiSXo1aqcDazgWc4rjMWIiVxYVYXQ2QrIyaq.2LQcFVo8FLyXUVvUCZJokLmIyagECVlsBaWcEahk1bjMUaI8VY2D0LEwVaAkWYykmVoQGcYkFcBcSSyYycEc2U3bldgoEbxnWbVU1b1okVScDVqQFVtDmdmMDbMgSS1jUMxzTc5wFYXczT5Y1csMTQTgjS1zVYMMlLtHmcnsRNlc1c4XDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
+    <STATE>1308.VMjLgLQA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9fSN23hKt3hKtnlLt3hK1AUQiQDUFImKt3hYG01XZASLN4DcMwjdxrDTqbDS2XSby4lbzcGZIM1c5MlLzgjaHg0Qlk0R0jVQJQldrAia4fGUgQiYYkiMKM2Xz4FSXM2TPAyR2gVMPEEdCkTUyLVcqrFb34FNzECcnwVMUcGTBsjS0fyJ07zJSIyXkE1Y3DkMjckcY4VLDcDNhEVdSgCM4.SYpQjctDESm0DZVICNtkmMKAmLvTDN0gSL3IzJwo2c2E0X4XUaygFQ0ojSoczQUkUYzbWTIIyUVEiZ0QiLVUzRAI0MrASYhgyU0fSXZQFdMA2ZyIiLTkENpEUYxI2c0oDaEoDb5MmLUQmRz4FazYSNJc0bO4DbxgUcgIUVBk0U4.GVzg0LWE1aqolKQU2R30zLSkzXzr1QDsRPR0zU1.GVEcVYWkUdVEFMWYSbGgiTRAUMugDZLQFU2MUZBE2bUoGLqTkMwHkLkkUXkwlX0LWL0rRVMMFVFYGdnMDRIYTZl01JiE1X3XVX43jRhQFcucCLuMiLkEiROUGN0E1bvXiXGY1Lu0zXocDUEcSVSQWa34RaBsTRIAmLOQ2Jl8jS0zVXxUDLGgSd3DCd4jjTLgyQBEjSAcVSGQTNvblZiMFRnE2PQQ1XHAWbCEUYigDawMTP04DQlM1PXQWP4TDcAIjQzEjQFQWPJYDaskVY1EiVwQVXMEkPKMTd5wDawfzcLEDdqU2bPUibVUiY1gTTwwDVrITTPclY5YFZz.iR181TtPmXjYFbPUGZ4YzUl4hZJAWYgETc3QDYqLEYqcVbqwzP3UUdwUET07TT38jaEgTQFcFZOEmUrAEZgcFT2QDdTIUMvQCRpcmZREjYyHjLjAEbKEkazHTPCslQF8TZucDbNw1TwAkVC4BMHM2YpEELnIWQxUETSQkPEUSZzHUZQgjKmI0S0Y0Yh0jTZA0REgmaHkGRVA0R2fFdMAkYJwFZgomPMoDV40FVQESQvLzL5oTZoIzYV8zSxjlcqbjUDMTdXwDNTMWapI0UtbWR4MUZXg0cMMUPtgGRPETau4VQzY1SJUmarMlRs8lZRsFQXMyMiMmbPEWT4.ybQshKKomVyPUQBcDQRMmT40Va4DjUXkjP44laXMkPPwFRooGYmozRHcSU4QjcLAyQwETRWoDL4sBSA4xU5E1aFMjSoQ0YBkVTNUFYCITYxvTP3wFYLMzLhMkUwHTStA0LS8VR2LjSI4BRsEENvsjarcCZRkURZQjdKwlRmEDSZAiTAISQy4xMuQjSKMUdqIlZEQzXxrlSLIDd20TY0DVY4slMCcjRzLiaNM0PsIVYvDiPWMFc1biaIkVdsUjSqvlKG0VYKshd1IUaxoWaqjGLGUWUgQWar0lV3PST0YjLq71T1XiXqoVYyPFZFYjVyrhSzgjQgM1XNshQWMVYTEkLQcCYgYiSGgSVjMUU3MzZMYSMikzP4YkTGMCYmQzJqEyXwTiaOISLWUmMUgmMxkSc0oTNCshT0LzbMYiQHIWY04ldvrlSucUMzPScR0FSUcUMgQGL5shc3n0UZMyXrgUR2UGQRAGUx4DSlEVM2kjXu0zJGAUYrYVX0vyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C.</STATE>
     <LAYOUT>
       <INPUTS/>
       <OUTPUTS>
