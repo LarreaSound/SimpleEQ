@@ -159,6 +159,11 @@ void SimpleEQAudioProcessorEditor::timerCallback()
         auto peakCoefficients = makePeakFilter(chainSettings, audioProcessor.getSampleRate());
         updateCoefficients(monoChain.get<ChainPositions::Peak>().coefficients, peakCoefficients);
         
+        auto lowCutCoefficients = makeLowCutFilter(chainSettings, audioProcessor.getSampleRate());
+        auto highCutCoefficients = makeHighCutFilter(chainSettings, audioProcessor.getSampleRate());
+        
+        updateCutFilter(monoChain.get<ChainPositions::LowCut>(), lowCutCoefficients, chainSettings.lowCutSlope);
+        updateCutFilter(monoChain.get<ChainPositions::HighCut>(), highCutCoefficients, chainSettings.highCutSlope);
         //signal a repaint
         repaint();
     }
@@ -177,3 +182,9 @@ std::vector<juce::Component*> SimpleEQAudioProcessorEditor::getComps()
         &highCutSlopeSlider
     };
 }
+
+// ¡IMPORTANTE!
+// Apunte del día
+// D.R.Y. Don't Repeat Yourself
+// If you find the same line written twice in your code,
+// that is an example of bad design and you should refactor your code.
