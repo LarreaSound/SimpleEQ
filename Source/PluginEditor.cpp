@@ -236,10 +236,6 @@ rightPathProducer(audioProcessor.rightChannelFifo)
         param->addListener(this);
     }
 
-    /*
-    48000 / 2048 = 23hz
-    */
-
 	updateChain();
 
     startTimerHz(60);
@@ -692,6 +688,7 @@ SimpleEQAudioProcessorEditor::~SimpleEQAudioProcessorEditor()
     peakBypassButton.setLookAndFeel(nullptr);
     lowcutBypassButton.setLookAndFeel(nullptr);
     highcutBypassButton.setLookAndFeel(nullptr);
+
     analyzerEnabledButton.setLookAndFeel(nullptr);
 }
 
@@ -701,6 +698,18 @@ void SimpleEQAudioProcessorEditor::paint (juce::Graphics& g)
     using namespace juce;
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (Colours::black);
+
+//    Path curve;
+//
+//    auto bounds = getLocalBounds();
+//    auto center = bounds.getCentre();
+//
+//    g.setFont(Font("Iosevka Term Slab", 30, 0)); //https://github.com/be5invis/Iosevka
+//
+//    String title{ "PFM::LarrPlug" };
+//    g.setFont(30);
+//    auto titleWidth = g.getCurrentFont().getStringWidth(title);
+
 }
 
 void SimpleEQAudioProcessorEditor::resized()
@@ -709,9 +718,11 @@ void SimpleEQAudioProcessorEditor::resized()
     // subcomponents in your editor..
 
     auto bounds = getLocalBounds();
+    bounds.removeFromTop(4);
 
     auto analyzerEnabledArea = bounds.removeFromTop(25);
-    analyzerEnabledArea.setWidth(100);
+
+    analyzerEnabledArea.setWidth(100); // 50 small
     analyzerEnabledArea.setX(5);
     analyzerEnabledArea.removeFromTop(2);
 
@@ -720,7 +731,7 @@ void SimpleEQAudioProcessorEditor::resized()
     bounds.removeFromTop(5);
 
     float hRation = 25.f / 100.f; // fJUCE_LIVE_CONSTANT(33) / 100.F; - Modificar tamaño de dial
-    auto responseArea = bounds.removeFromTop(bounds.getHeight() * hRation);
+    auto responseArea = bounds.removeFromTop(bounds.getHeight() * hRation); //change from 0.33 to 0.25 because I needed peak hz text to not overlap the slider thumb
 
     responseCurveComponent.setBounds(responseArea);
 
@@ -762,9 +773,3 @@ std::vector<juce::Component*> SimpleEQAudioProcessorEditor::getComps()
         &analyzerEnabledButton
     };
 }
-
-// IMPORTANT
-// 
-// D.R.Y. Don't Repeat Yourself
-// If you find the same line written twice in your code,
-// that is an example of bad design and you should refactor your code.
