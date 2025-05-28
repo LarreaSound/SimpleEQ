@@ -1,4 +1,4 @@
-# Simple EQ
+## Simple EQ
 
 <p>A free, open-source 3-band equalizer audio plugin with a real-time spectrum analyzer and response curve display, built using the JUCE framework.<p>
 
@@ -6,7 +6,7 @@
 
 <img src="https://github.com/user-attachments/assets/7cf3e679-8b7d-4a35-99b1-08b59001f2b8" width="600" height="500">
 
-# Features
+## Features
 
 <ul>
   <li><strong>3-Band Equalizer</strong>: Low, Mid, and High frequency bands with adjustable gain and Q controls.</li>
@@ -17,7 +17,7 @@
   <li><strong>Open Source</strong>: Full source code available.</li>
 </ul>
 
-# 📦 Repository
+## Repository
 
 ---
 
@@ -28,7 +28,7 @@ git clone https://github.com/LarreaSound/SimpleEQ.git
 cd SimpleEQ 
 ```
 
-# This repo contains:
+## This repo contains:
 
 SimpleEQ.jucer — the Projucer project file
 
@@ -36,7 +36,7 @@ SimpleEQ.filtergraph — DSP filter-graph definition
 
 (On export) Build/ — your IDE project files and source code folders
 
-# ⚙️ Prerequisites
+## Prerequisites
 
 JUCE 6+ [JUCE](https://juce.com/)
 
@@ -44,7 +44,7 @@ A C++17-capable compiler (Visual Studio, Xcode, CLang, GCC)
 
 Projucer (to open ```.jucer```)
 
-# 🛠️ Building
+## Building
 Open ```SimpleEQ.jucer``` in Projucer
 
 Set your desired plugin formats (e.g. VST3, AU) in the <strong>Project Settings → Exporters</strong>
@@ -55,14 +55,14 @@ Open the generated project in your IDE
 
 Build the ```Plugin``` target
 
-# 🎚️ Usage
+## Usage
 Load the built plugin in your DAW or audio host
 
 Adjust Low, Mid, High bands (gain, frequency & Q)
 
 Observe the Spectrum Analyzer and Response Curve updating in real time
 
-# 🔧 Project Structure
+## Project Structure
 
 SimpleEQ/
 
@@ -82,7 +82,7 @@ SimpleEQ/
 
 └── Source/                     # (auto-generated) .cpp / .h plugin sources
 
-# 🙏 Credits
+## Credits
 Original Plugin & Tutorial by [Matkat Music](https://www.programmingformusicians.com/) (PFM::SimpleEQ) 
 
 Recreated by Julio Larrea / LarreaSound (2025)
